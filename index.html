@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- font awesome link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Edtech</title>
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Edtech</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/About.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Topic
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="/WebAndro.html"
+                    >Web/android roadmap</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">C++,Java, python and DSA</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li><a class="dropdown-item" href="https://sagarkumar2004.github.io/blogs/#blog">Best coding Blogs</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Contact.html">Contact Us</a>
+            </li>
+          </ul>
+         
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end -->
+    <!-- sliding image -->
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://source.unsplash.com/1400x400/?programing, coding"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Welcome to the edtech</h5>
+            <p>
+              Here you that web development roadmap, Android development roadmap
+              and best coding blogs.
+            </p>
+            <button type="button" class="btn btn-primary btn-sm">
+              web dev
+            </button>
+            <button type="button" class="btn btn-dark btn-sm">
+              Android dev
+            </button>
+            <button type="button" class="btn btn-success btn-sm">
+              Roadmap
+            </button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://source.unsplash.com/1400x400/?technology, laptop"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Welcome to the edtech</h5>
+            <p>
+              Here you that web development roadmap, Android development roadmap
+              and best coding blogs.
+            </p>
+            <button type="button" class="btn btn-primary btn-sm">
+              web dev
+            </button>
+            <button type="button" class="btn btn-dark btn-sm">
+              Android dev
+            </button>
+            <button type="button" class="btn btn-success btn-sm">
+              Roadmap
+            </button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://source.unsplash.com/1400x400/?app, computer"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Welcome to the edtech</h5>
+            <p>
+              Here you that web development roadmap, Android development roadmap
+              and best coding blogs.
+            </p>
+            <button type="button" class="btn btn-primary btn-sm">
+              web dev
+            </button>
+            <button type="button" class="btn btn-dark btn-sm">
+              Android dev
+            </button>
+            <button type="button" class="btn btn-success btn-sm">
+              Roadmap
+            </button>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Cards starting -->
+
+    <!-- harding -->
+    <div class="container my-3 p-3">
+      <h2>Development</h2>
+      <h3 class="p-3">Web development</h3>
+    </div>
+
+    <!-- harding end -->
+
+    <div class="container my-3">
+      <div class="row">
+        <div class="col-xl-3 col-md-6 my-3">
+          <div class="card" style="width: 18rem">
+            <img src="/image/web9.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">HTML,Css and JavaScript</h5>
+              <p class="card-text">
+                HTML provides the basic structure of sites, which is enhanced and modified by other technologies like CSS and JavaScript.
+                CSS is used to control presentation, formatting, and layout. JavaScript is used to control the behavior of different elements. 
+              </p>
+              <a href="/WebAndro.html" class="btn btn-primary">Lean More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6 my-3">
+          <div class="card" style="width: 18rem">
+            <img src="/image/web8.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Django</h5>
+              <p class="card-text">
+                Django is a free and open-source, Python-based web framework that follows the model–template–views architectural pattern.
+              </p>
+              <a href="/WebAndro.html" class="btn btn-primary">Lean More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6 my-3">
+          <div class="card" style="width: 18rem">
+            <img src="/image/web5.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Node Js</h5>
+              <p class="card-text">
+                Node.js is a cross-platform, open-source server environment that can run on Windows, Linux, Unix, macOS, and more
+              </p>
+              <a href="/WebAndro.html" class="btn btn-primary">Lean More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6 my-3">
+          <div class="card" style="width: 18rem">
+            <img src="/image/web4.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">JavaScript library/framework</h5>
+              <p class="card-text">
+                JavaScript library is a library of pre-written JavaScript code that allows for easier development of JavaScript-based
+                 applications, especially for AJAX and other web-centric technologies.
+              </p>
+              <a href="/WebAndro.html" class="btn btn-primary">Lean More</a>
+            </div>
+          </div>
+   
+        </div>
+        
+
+        <!-- Android -->
+        <h3 class="p-4">Android development</h3>
+        <!-- Android handing end -->
+
+        <div class="row">
+          <div class="col-xl-3 col-md-6 my-3">
+            <div class="card" style="width: 18rem">
+              <img src="/image/android1.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">XML</h5>
+                <p class="card-text">
+                  Extensible Markup Language is a markup language and file format 
+                  for storing, transmitting, and reconstructing arbitrary data
+                </p>
+                <a href="#" class="btn btn-primary">Lean More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 my-3">
+            <div class="card" style="width: 18rem">
+              <img src="/image/android2.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Java</h5>
+                <p class="card-text">
+                  Java is a high-level, class-based, object-oriented programming language 
+                  that is designed to have as few implementation dependencies as possible
+                </p>
+                <a href="#" class="btn btn-primary">Lean More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 my-3">
+            <div class="card" style="width: 18rem">
+              <img src="/image/android3.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Flutter</h5>
+                <p class="card-text">
+                  Flutter is an open-source UI software development kit created by Google. It is used to develop 
+                  cross-platform applications for Android, iOS....
+                </p>
+                <a href="/WebAndro.html" class="btn btn-primary">Lean More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 my-3">
+            <div class="card" style="width: 18rem">
+              <img src="/image/android4.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title"> Android Studio </h5>
+                <p class="card-text">
+                  Android Studio is the official integrated development environment for Google's Android operating system...
+                </p>
+                <a href="/WebAndro.html" class="btn btn-primary">Lean More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer class="container-fluid text-light bg-dark py-5 px-5">
+      <div class="row">
+        <div class="col-12  col-md">
+          <h2>EDTECH</h2>
+          <small class="d-block mb-3 text-muted">© 2017–2023</small>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Links</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary" href="/index.html">Home</a></li>
+            <li><a class="link-secondary" href="https://sagarkumar2004.github.io/blogs/#blog">Blogs</a></li>
+            <li><a class="link-secondary" href="/WebAndro.html">Web development</a></li>
+            <li><a class="link-secondary" href="/WebAndro.html">Android development</a></li>
+            
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Follow Us</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary" href="#"><i class="fa fa-2x fa-instagram p-1" ></i></a></li>
+            <li><a class="link-secondary" href="#"><i class="fa fa-2x fa-facebook p-1" ></i></a></li>
+            <li><a class="link-secondary" href="#"><i class="fa fa-2x fa-twitter p-1" ></i></a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Resources</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary" href="#">Business</a></li>
+            <li><a class="link-secondary" href="#">Education</a></li>
+            <li><a class="link-secondary" href="#">Government</a></li>
+            <li><a class="link-secondary" href="#">Gaming</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>About</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="link-secondary" href="#">Team</a></li>
+            <li><a class="link-secondary" href="#">Locations</a></li>
+            <li><a class="link-secondary" href="#">Privacy</a></li>
+            <li><a class="link-secondary" href="#">Terms</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
